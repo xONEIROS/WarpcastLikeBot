@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "default_locale": "en",
+
+    "author": "oneiros",
+    "background": {
+        "page": "background.html",
+        "persistent": true
+    },
+    "browser_action": {
+        "default_icon": {
+            "128": "images/icon.png"
+        }
+    },
+    "default_locale": "en",
+    "description": "0xOneiros",
+    "icons": {
+        "128": "images/icon.png"
+    },
+    "name": "0xoneiros Load Pages",
+    "version": "1.0",  
+    "permissions": [
+    "storage", "tabs"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "oneiros Clicker",
+    "description": "oneiros Clicker",
+    "version": "1.0",
+    "permissions": ["tabs", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "icons": {
+        "128": "0xoneiros.png"
+    },
+    "browser_action": {
+        "default_icon": "0xoneiros.png",
+        "default_popup": "popup.html"
+    }
+}
